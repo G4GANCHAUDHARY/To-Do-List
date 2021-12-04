@@ -1,20 +1,13 @@
-# 10x Academy JavaScript Assignments
+# Create a Todo List 
 
-## Curated list of JavaScript Assignments to make you familiar with the concepts of the language
+# Use Javascipt to add todos and delete them on click
 
-<br />  
-  
-[Assignments:](assignments)
-* [BMI Calculator](assignments/bmi_calculator/BMICalculator.md)
-* [Favourite Movie](assignments/favourite_movie/FavouriteMovie.md)
-* [Can Drive](assignments/can_drive/CanDrive.md)
-* [Run Callback](assignments/run_callback/RunCallback.md)
-* [Play With Array](assignments/play_with_array/PlayWithArray.md)
-* [Create Object](assignments/create_object/CreateObject.md)
-* [Todo List](assignments/todo_list/TodoList.md)
+Instructions
+* Write you code in [script.js](./script.js) file to perform the below mentioned tasks
+* Add the todo in the input box
+* Use the Add Todo button to add the todo inside the div with class todos
+* You need to keep a count of todos created and give a key attribute to every todo that you are creating (starting from 0)
+* That means your first todo would look like ```<p key="0">{Todo Name}</p>```, second would look like ```<p key="1">{Todo Name}</p>``` and so on...
+* Add event listener on each todo as well, so that on clicking of that todo, it should be removed from the html document, you don't need to decrease the count of todo though
 
-## Please follow these steps before submitting
-* Create a new branch off master to code your solution into
-* Check if you have followed the instructions properly
-* Run ```npm run test``` and see if all the test cases are passed
-* If all the tests are passed, push the code and raise the PR 
+Run ```npm run test todo_list``` to test your code
