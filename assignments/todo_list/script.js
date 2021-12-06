@@ -14,9 +14,13 @@ function addtodo() {
 // input_value will give us the input text given from user using query selector
 var input_value = newTodoInput.value;
 
+if (input_value==""){
+    return
+}
+
 // New paragraph will be added in Div tag with key as atrribute and input text as innertext
 var item=document.createElement('p');
-item.innerText=input_value;
+item.innerHTML=input_value;
 item.setAttribute("key",count);
 todolist.append(item);
 
@@ -30,3 +34,5 @@ item.addEventListener("click",function () {
 
 newTodoInput.value=""
 }
+
+addTodoBtn.addEventListener("click",addtodo)
