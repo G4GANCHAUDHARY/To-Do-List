@@ -1,7 +1,7 @@
 # Create a Todo List 
 
 # Use Javascipt to add todos and delete them on click
-
+ 
 Instructions
 * Write you code in [script.js](./script.js) file to perform the below mentioned tasks
 * Add the todo in the input box
